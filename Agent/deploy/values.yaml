@@ -54,10 +54,10 @@ affinity:
     requiredDuringSchedulingIgnoredDuringExecution:
     - labelSelector:
         matchExpressions:
-        - key: app
+        - key: application
           operator: In
           values:
-          - chp
+          - ea
       topologyKey: "kubernetes.io/hostname"
   # this ensures pod only runs on node with label application=ea
   nodeAffinity:
