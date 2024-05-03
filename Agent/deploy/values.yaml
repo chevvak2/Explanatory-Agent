@@ -67,7 +67,7 @@ affinity:
         - key: application
           operator: In
           values:
-          - chp
+          - ea
 tolerations:
   - key: "transltr"
     value: "chp"
